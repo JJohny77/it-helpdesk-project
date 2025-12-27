@@ -57,7 +57,14 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
                     <label class="form-label text-muted">Password</label>
                     <input type="password" name="password" class="form-control form-control-lg" required>
                 </div>
-                <button type="submit" class="btn btn-primary w-100 btn-lg">Login</button>
+                <button type="submit" class="btn btn-primary w-100 btn-lg mb-3">Login</button>
+
+                <div class="text-center border-top pt-3">
+                    <p class="text-muted small">Δεν είστε διαχειριστής;</p>
+                    <a href="submit_ticket.php" class="btn btn-outline-dark w-100">
+                        Δήλωση Βλάβης (Υπάλληλοι)
+                    </a>
+                </div>
             </form>
         </div>
     </div>
